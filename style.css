@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 168px;
+}
+.occassions{
+    height: 90px;
+    width: 100%;
+}
+.main-section{
+    height: 3573px;
+    margin: 16px 0px 95px;
+    padding: 0px 60px; 
+}
+.grid-container{
+    width: 100%;
+    height: 3631px;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns:repeat(4, 320px);
+    row-gap: 25px;
+    column-gap: 25px;
+    grid-template-rows: 388px; 
+} 
+.grid-items{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 15px;
+    width: 100%;
+    height: 267px;
+    border-radius: 10px;
+    background-image: url(assets/luxry1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.top{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favorite{
+    width: 118px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: white;
+    border: none;
+    padding: 2px 0px 0px;
+    border-radius: 30px;
+    
+}
+.favorite a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.scrolling-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    width: 100px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.scrolling-dots>.one{
+    width: 7px;
+    height: 7px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.scrolling-dots>.diff{
+    background-color: white;
+}
+.scrolling-dots>.two{
+    width: 6px;
+    height: 6px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.scrolling-dots>.three{
+    width: 5px;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.country{
+    width: 100%;
+    height: 19px;
+    margin: 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.country>div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.grid-items>p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkgray ;
+}
+.thin{
+    font-weight: 300;
+}
+.next{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    display: none;
+}
+.image:hover .next{
+    display: flex;
+    transition: all ease-in linear 3s;
+}
+.show-more{
+    margin: 56px 0px 0px;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.show-more>button{
+    margin: 16px 0px 0px;
+    width: 132px;
+    height: 48px;
+    background: black;
+    border: none;
+    border-radius: 7px;
+}
+.show-more>button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
