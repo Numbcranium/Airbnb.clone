@@ -173,4 +173,172 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
 }
+footer{
+    background-color: rgb(247,247,247);
+    padding-top: 40px;
+    margin: 50px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inspiration{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.inspiration-features{
+    display: flex;
+    gap: 21px;
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-first{
+    padding: 0px 95px 0px;
+}
+.inspiration-features a{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 14px;
+}
+.inspiration-features .one{
+    color: black;   
+    border-bottom: 2px solid black;
+}
+.mid-items{
+    padding: 40px 95px 25px;
+}
+.mid-items a{
+    font-family: Font;
+    text-decoration: none;
+    color: gray;
+    font-weight: 10;
+    font-size: 16px;
+}
+.mid-items .thick{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid-one{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid-two{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid-three{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid-three .thick{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid-three .underline:hover{
+    text-decoration: underline;
+}
+.footer-mid{
+    border-bottom: 0.1pt solid gray;
+}
+
+.footer-end{
+    padding: 40px 95px 20px;
+}
+.end-one{
+    display: grid;
+    font-family: Font;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 0.2pt solid rgb(155, 154, 154);
+    padding-bottom: 50px;
+}
+.end-one a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+}
+.end-one a:hover{
+    text-decoration: underline;
+}
+.end-one .thick{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.end-one .thick:hover{
+    text-decoration: none;
+}
+.end-two{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.end-three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.end-four{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 95px 25px;
+}
+.line-one{
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.line-one a{
+    text-decoration: none;
+    color: gray;
+}
+.line-one a:hover{
+    text-decoration: underline;
+}
+.full-stop{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.line-two{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 16px;
+}
+.line-two>p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.line-two a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
 
